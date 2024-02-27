@@ -1,5 +1,4 @@
 package practiceNhuLoan;
-
 import javax.swing.*;
 
 public class bai1 {
@@ -7,7 +6,7 @@ public class bai1 {
         JFrame jf = new JFrame("Hello world");
         jf.setLocation(300, 200);
         jf.setSize(250, 200);
-        jf.setDefaultCloseOperation(jf.EXIT_ON_CLOSE);
+        jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jf.setVisible(true);
     }
 
