@@ -31,7 +31,7 @@ public class bai2 extends JFrame {
         JButton btn3 = new JButton("Exit");
         JPanel container1 = new JPanel(new FlowLayout());
         JPanel container2 = new JPanel(new FlowLayout());
-        JPanel container3 = new JPanel(new FlowLayout());
+        JPanel container3 = new JPanel(new FlowLayout(FlowLayout.CENTER));
         JPanel wrapper =new JPanel(new FlowLayout());
         container1.add(label1);
         container1.add(text);
